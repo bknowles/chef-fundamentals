@@ -2,7 +2,7 @@
 
 <center><img src="../images/oc-chef-logo.png" height="394" width="500" /></center>
 
-<center>Based on: Chef Fundamentals OPS150-04.01</center>
+<center>Based on: Chef Fundamentals OPS150-04.01 (3 Day Course)</center>
 
 <center>Created and Sponsored by Opscode, Inc.</center>
 <center>Adapted by Brad Knowles</center>
@@ -82,8 +82,8 @@ break), or simply running through each section.
 * Introduction
 * Getting Started
 * Anatomy of a Chef Run
-* Cookbooks, Recipes and Resources
 * Just Enough Ruby for Chef
+* Cookbooks, Recipes and Resources
 * Resources in Depth
 
 .notes The course is taught in logical sections that follow this flow.
@@ -116,7 +116,7 @@ At the end of the class you will have:
 
 # About Best Practices
 
-This course encompasses what we consider "best practices".
+This course encompasses what are considered "best practices".
 
 Many things in Chef have multiple approaches. We will focus on one,
 but may mention others for awareness.
