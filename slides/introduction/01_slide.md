@@ -28,11 +28,9 @@ California, 94105, USA.
 
 * Brad Knowles
 * ihiji, Inc.
-* Unix/Linux Administrator, Internet/Cloud Systems/Scalability
-  Engineer, Consultant, Instructor, Speaker, Author,
-  & Privacy Advocate with over twenty years of experience
-  * Started actively working with Chef in September of 2011
-* bknowles@ihiji.com and brad@shub-internet.org
+* System Administrator/Engineer/Consultant: 20+ years
+    * Chef user: since Sep. 2011
+* bknowles@ihiji.com // @bradknowles
 
 .notes Contact information should minimally include email address.
 
@@ -130,7 +128,7 @@ Chef is flexible and you can make it do almost anything you want
 
 # About the course materials
 
-Opscode's training materials are dual-licensed.
+These training materials are dual-licensed by Opscode.
 
 * Creative Commons Attribution-ShareAlike (CC BY-SA) for slides,
   guides and notes.
