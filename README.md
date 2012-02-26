@@ -33,8 +33,8 @@ run the presentation, though the rake task should handle this already.
 
 Two URLs are available:
 
-* http://localhost:9090 - "student" view of the slides
-* http://localhost:9090 - "presenter view of the slides
+* [http://localhost:9090](http://localhost:9090) - "student" view of the slides
+* [http://localhost:9090](http://localhost:9090) - "presenter" view of the slides
 
 When presenting the materials as an instructor, use the "presenter"
 view. This will also pop up a second browser window that will advance
@@ -92,8 +92,8 @@ in the hands on portion of the course.
 
 # Resources
 
-http://daringfireball.net/projects/markdown/syntax
-https://github.com/schacon/showoff
+[http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
+[https://github.com/schacon/showoff](https://github.com/schacon/showoff)
 
 # Contributing
 
@@ -109,3 +109,4 @@ them.
 
 Joshua Timberman <joshua@opscode.com>
 Aaron Peterson <aaron@opscode.com>
+Brad Knowles <bknowles@ihiji.com>
