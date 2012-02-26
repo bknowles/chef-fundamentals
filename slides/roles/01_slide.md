@@ -35,7 +35,7 @@ the specified file in the `roles` directory.
 
     knife role from file base.rb
 
-Roles are converted to JSON on the server.
+Roles are converted to JSON for execution on the server.
 
 # Ruby or JSON
 

@@ -8,55 +8,6 @@ Section Objectives:
 .notes These course materials are Copyright © 2010-2012 Opscode, Inc. All rights reserved.
 This work is licensed under a Creative Commons Attribution Share Alike 3.0 United States License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/us; or send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
 
-# Special Exercise format
-
-This unit has a special exercise format. We will use `shef` to
-interactively write resources and observe the results.
-
-Not all resources in the examples will work exactly as written. The
-goal is to understand the syntax and how Chef processes the resource,
-not to configure specific things on the system.
-
-Students should be logged into the provided remote target instance
-rather than their local workstation. `shef` should be started as a
-privileged user (e.g., `sudo shef`).
-
-# Shef
-
-`shef`, the Chef Shell (or Console) operates under different execution
-contexts and the prompt indicates the context.
-
-Shef starts in the "main" context. The prompt will look like this:
-
-    chef >
-
-This is where general Chef Server API calls can be made through
-Shef-defined methods.
-
-The `help` command is available in all contexts and displays the
-built-in commands available.
-
-# Shef
-
-Two other contexts are available.
-
-`attributes` is the context of editing a "cookbook attributes" file.
-
-    chef > attributes
-    chef:attributes >
-
-`recipes` is the context of the Chef Recipe DSL.
-
-    chef > recipe
-    chef:recipe >
-
-We are going to write resources using the Recipe DSL, so ensure you
-are in the recipe context.
-
-.notes Using the recipe context allows direct demonstration of the
-"compile" vs "execute" phases of node convergence. We're not actually
-doing the "execute" part in these demonstrations.
-
 # Chef Resources
 
 Chef Resources have four components.
@@ -84,21 +35,6 @@ depending on the specific resource. If parameters are not specified,
 Chef will use its default value.
 
 The action, if specified, **must** begin with a colon (Ruby symbol).
-
-# Shef Simple Example
-
-    chef:recipe > file "/tmp/foo"
-    => <file[/tmp/foo] @name: "/tmp/foo" @noop: nil @before: nil @params:
-    {} @provider: nil @allowed_actions:
-    [:nothing, :create, :delete, :touch, :create_if_missing] @action:
-    "create" @updated: false @updated_by_last_action: false @supports:
-    {} @ignore_failure: false @retries: 0 @retry_delay: 2
-    @immediate_notifications: [] @delayed_notifications: []
-    @source_line: "(irb#1):1:in `irb_binding'" @resource_name: :file
-    @path: "/tmp/foo" @backup: 5 @cookbook_name: nil @recipe_name: nil
-    @enclosing_provider: nil>
-
-.notes We will come back to this very shortly.
 
 # Common Resources
 
@@ -151,8 +87,6 @@ the system, e.g. "`/etc/passwd`."
 The default action is to create the file.
 
 # file example
-
-Type this into your Shef session (recipe context):
 
     @@@ruby
     file "/etc/passwd" do
@@ -287,8 +221,6 @@ Use Ruby code, e.g. conditionals:
     <% if node['platform'] =~ /debian/ -%>
     I'm on Debian.
     <% end -%>
-
-.notes Do not type this into Shef, as it will do us no good.
 
 # Data driven configuration
 
@@ -466,7 +398,7 @@ follow redirects properly; e.g., EPEL RPMs.
 Complete list provided by Opscode published cookbooks:
 [http://wiki.opscode.com/display/chef/Opscode+LWRP+Resources](http://wiki.opscode.com/display/chef/Opscode+LWRP+Resources)
 
-Download cookbooks from http://community.opscode.com/cookbooks
+Download cookbooks from [http://community.opscode.com/cookbooks](http://community.opscode.com/cookbooks)
 
 .notes Trying to find cookbooks for these things on GitHub is prone to
 confusion. Use the Community site.
@@ -843,8 +775,6 @@ source files for some of the templates and cookbook_files.
 
 Chef will halt execution when it encounters an unhandled exception.
 
-.notes the `shef` command to enter the execution phase is `run-chef`.
-
 # Summary
 
 * Understand the components of resources.
@@ -863,11 +793,10 @@ Chef will halt execution when it encounters an unhandled exception.
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Resources
+* [http://wiki.opscode.com/display/chef/Resources](http://wiki.opscode.com/display/chef/Resources)
 
 # Lab Exercise
 
 Resources In Depth
 
 * Understand components of resources
-* Write resources into shef and observe the outcome

@@ -67,9 +67,13 @@ Some make 1.9 version(s) available, but few use it as the default version.
 
 # RubyGems
 
-Ruby software and libraries are usually published as Gems, using the Ruby packaging system *RubyGems*. Gems are published to http://rubygems.org/
+Ruby software and libraries are usually published as Gems, using
+the Ruby packaging system *RubyGems*. Gems are published at
+[http://rubygems.org/](http://rubygems.org/)
 
-Prior to Ruby 1.9, RubyGems was separately installed. It has been added to Ruby 1.9 in the standard library, at RubyGems version 1.3.7.
+Prior to Ruby 1.9, RubyGems was separately installed. It has been
+added to Ruby 1.9 in the standard library, at RubyGems version
+1.3.7.
 
 Chef requires at least RubyGems 1.3.7.
 
@@ -170,6 +174,12 @@ Chef comes with several tools of its own.
 * chef-client and chef-solo
 * knife
 * shef
+
+.notes chef-solo operates without a Chef Server.  It requires that all
+the recipes it needs are available, and that it be told what to run
+on the node.  Shef is an interactive Ruby console that supports
+attribute and recipe contexts, as well as interactive debugging
+features.
 
 # Other Tools
 
@@ -337,7 +347,7 @@ The configuration value `node_name` in the `knife.rb` refers to an Opscode user.
 
 Users are global to the entire Opscode service.
 
-Users may be associated to one or more organizations.
+Users may be associated with one or more organizations.
 
 # Knife Configuration
 
@@ -485,41 +495,6 @@ Options passed on the command-line override values in the configuration file.
     chef-client -N node-name
     chef-client -S https://api.opscode.com/organizations/OTHER
     chef-client --help
-
-# Chef Solo
-
-chef-solo operates without a Chef Server. It requires that all the
-recipes it needs are available, and that it be told what to run on the
-node.
-
-A JSON file is passed to chef-solo to give it these instructions in a
-`run_list` for the node.
-
-The default configuration file is `/etc/chef/solo.rb`.
-
-# Solo Command-line Options
-
-`chef-solo` does not connect to a server, so it doesn't have options for interacting with a server. Common command-line options:
-
-    | Command-line Option   | solo.rb       |
-    |-----------------------|---------------|
-    | -l, --log_level LEVEL | log_level     |
-    | -L, --logfile LOGFILE | log_location  |
-    | -j JSON_ATTRIBUTES    | json_attribs  |
-    | -N, --node-name NAME  | node_name     |
-    | -r, --recipe-url URL  | recipe_url    |
-
-These are similar to `chef-client`, with the addition of `-r`.
-
-# Shef
-
-Shef is an interactive Ruby console that supports attribute and recipe contexts, as well as interactive debugging features.
-
-Shef can be configured to talk to a Chef Server to interact with the API directly.
-
-In depth use of Shef is beyond the scope of this class, but we may explore it for examples later.
-
-The default configuration file is `~/.chef/shef.rb` but an alternate can be passed with `-c`.
 
 # Chef Server
 
@@ -693,12 +668,12 @@ Example Chef Repository directory tree:
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Resources
-* http://wiki.opscode.com/display/chef/Recipes
-* http://wiki.opscode.com/display/chef/Chef+Repository
-* http://wiki.opscode.com/display/chef/Chef+Configuration+Settings
-* http://wiki.opscode.com/display/chef/Server+API
-* http://community.opscode.com/cookbooks
+* [http://wiki.opscode.com/display/chef/Resources](http://wiki.opscode.com/display/chef/Resources)
+* [http://wiki.opscode.com/display/chef/Recipes](http://wiki.opscode.com/display/chef/Recipes)
+* [http://wiki.opscode.com/display/chef/Chef+Repository](http://wiki.opscode.com/display/chef/Chef+Repository)
+* [http://wiki.opscode.com/display/chef/Chef+Configuration+Settings](http://wiki.opscode.com/display/chef/Chef+Configuration+Settings)
+* [http://wiki.opscode.com/display/chef/Server+API](http://wiki.opscode.com/display/chef/Server+API)
+* [http://community.opscode.com/cookbooks](http://community.opscode.com/cookbooks)
 
 # Lab Exercise
 

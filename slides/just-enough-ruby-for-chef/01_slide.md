@@ -90,7 +90,7 @@ This is often done in Chef to use node attributes:
 
 # Numbers
 
-Ruby supports integers an floating point numbers.
+Ruby supports integers and floating point numbers.
 
     @@@ ruby
     cpus = 2
@@ -137,8 +137,10 @@ prefixing a string with a colon.
     @@@ ruby
     :thing
 
-Symbols are commonly used as hash keys instead of strings because they
-are often more memory efficient.
+Symbols have been used as hash keys instead of strings because they
+can be more memory efficient.  However, they are not as easy for
+non-programmers to understand, so you generally want to avoid them
+where possible.
 
     @@@ ruby
     {
@@ -314,4 +316,4 @@ appropriate method.
 
 The primary site for Ruby is maintained by the Ruby Community:
 
-* http://ruby-lang.org
+* [http://ruby-lang.org](http://ruby-lang.org)

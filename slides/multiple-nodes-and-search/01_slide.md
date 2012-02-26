@@ -361,9 +361,9 @@ haproxy.
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Search
-* http://wiki.opscode.com/display/chef/Knife+Bootstrap
-* http://wiki.opscode.com/display/chef/Knife+Built+In+Subcommands
+* [http://wiki.opscode.com/display/chef/Search](http://wiki.opscode.com/display/chef/Search)
+* [http://wiki.opscode.com/display/chef/Knife+Bootstrap](http://wiki.opscode.com/display/chef/Knife+Bootstrap)
+* [http://wiki.opscode.com/display/chef/Knife+Built+In+Subcommands](http://wiki.opscode.com/display/chef/Knife+Built+In+Subcommands)
 
 # Lab Exercise
 

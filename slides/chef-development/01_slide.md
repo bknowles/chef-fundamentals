@@ -10,17 +10,17 @@ This work is licensed under a Creative Commons Attribute Share Alike 3.0 United 
 Chef itself is an open source project.
 
 * Apache 2.0 Software License.
-* 500+ individuals, 100+ companies!
+* 600+ individuals, 100+ companies!
 
 # How to Contribute
 
 Sign a CLA.
 
-* http://wiki.opscode.com/display/chef/How+to+Contribute
+* [http://wiki.opscode.com/display/chef/How+to+Contribute](http://wiki.opscode.com/display/chef/How+to+Contribute)
 
 Sign up on JIRA.
 
-* http://tickets.opscode.com
+* [http://tickets.opscode.com](http://tickets.opscode.com)
 
 Find a ticket and start patching!
 
@@ -32,7 +32,7 @@ Other projects by Opscode are Apache licensed as well.
 * mixlibs
 * cookbooks
 * knife plugins
-* http://github.com/opscode
+* [http://github.com/opscode](http://github.com/opscode)
 
 # Keeping Up to Date
 
@@ -60,21 +60,21 @@ Open training materials are Creative Commons licensed and released periodically.
 
 Sign up on the web site for updates.
 
-* http://opscode.com/opentraining
+* [http://opscode.com/opentraining](http://opscode.com/opentraining)
 
 # Additional Help Resources
 
 Opscode Platform support site
 
-* help.opscode.com
+* [http://help.opscode.com](http://help.opscode.com)
 
 Open source Chef wiki and documentation
 
-* wiki.opscode.com
+* [http://wiki.opscode.com](http://wiki.opscode.com)
 
 Screencasts
 
-* opscode.blip.tv
+* [http://opscode.blip.tv](http://opscode.blip.tv)
 
 # Community
 
@@ -82,14 +82,14 @@ We are working to expand our efforts in sponsoring Chef community events. Our co
 
 Announcements of upcoming events are posted to our blog and twitter ([@opscode](http://twitter.com/opscode)).
 
-* http://community.opscode.com
+* [http://community.opscode.com](http://community.opscode.com)
 
 # ChefConf
 
 Our first Chef users' conference is May 15-17, 2012, in Burlingame,
 CA.
 
-* http://chefconf.opscode.com
+* [http://chefconf.opscode.com](http://chefconf.opscode.com)
 
 # Plugins and RubyGems
 
@@ -98,22 +98,24 @@ Many other people are creating plugins and RubyGems for Chef and Knife.
     gem list -r chef-
     gem list -r knife-
 
-* http://wiki.opscode.com/display/chef/Community+Plugins
+* [http://wiki.opscode.com/display/chef/Community+Plugins](http://wiki.opscode.com/display/chef/Community+Plugins)
 
 # Related Projects
 
-* Vagrant - http://vagrantup.com/
-* Spice - https://github.com/danryan/spice
-* PyChef - https://github.com/coderanger/pychef
-* Ruby Version Manager (RVM) - http://rvm.beginrescueend.com/
-* Rbenv - https://github.com/sstephenson/rbenv
+* Vagrant - [http://vagrantup.com/](http://vagrantup.com/)
+* Spice - [https://github.com/danryan/spice](https://github.com/danryan/spice)
+* PyChef - [https://github.com/coderanger/pychef](https://github.com/coderanger/pychef)
+* Ruby Version Manager (RVM) - [http://rvm.beginrescueend.com/](http://rvm.beginrescueend.com/)
+* Rbenv - [https://github.com/sstephenson/rbenv](https://github.com/sstephenson/rbenv)
 
 # Related Projects
 
-* Rundeck - http://rundeck.org
-* Noah - https://github.com/lusis/Noah/wiki
-* Cucumber-chef - http://www.cucumber-chef.org/
-* Pylon - https://github.com/fujin/pylon
+* Rundeck - [http://rundeck.org](http://rundeck.org)
+* Noah - [https://github.com/lusis/Noah/wiki](https://github.com/lusis/Noah/wiki)
+* Cucumber-chef - [http://www.cucumber-chef.org/](http://www.cucumber-chef.org/)
+* Pylon - [https://github.com/fujin/pylon](https://github.com/fujin/pylon)
+* Spiceweasel - [https://github.com/mattray/spiceweasel](https://github.com/mattray/spiceweasel)
+* Capistrano - [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 
 # Thank you!
 

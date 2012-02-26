@@ -278,14 +278,19 @@ over the place.
 Use a version control system for your Chef Repository where the
 cookbooks are stored.
 
-Community best practice is Git. However, other DVCS are common. Use
-the preferred tool for your organization.
+Community best practice is Git.
 
-It is beyond the scope of this course to discuss version control
-strategies in depth.
+However, it is beyond the scope of this course to discuss version
+control strategies in depth.
 
-Storing a cookbook in version control does not make it available to
-Chef. It must be uploaded to the Chef Server.
+Storing a cookbook in version control does not make it available
+to Chef.  It must be uploaded to the Chef Server.  There are plugins
+to make this easier.
+
+.notes IMO, if you're not using git and you want to share any of your work
+publicly, then you're shooting yourself in the foot before you start
+the race.  Best practice is to use one git repo per cookbook for
+all cookbooks to be shared publicly.
 
 # Nodes and Chef Server
 

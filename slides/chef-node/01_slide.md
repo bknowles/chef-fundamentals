@@ -394,49 +394,6 @@ YAML ("y") or Text (default, or "t")
     > knife node show i-2b58ad4a -r -Fj
     > knife node show i-2b58ad4a -a ec2 -Fj
 
-# Examining Chef::Node in Shef
-
-We can use `shef` to examine properties of the `Chef::Node`
-object. Similar to `chef-client`, `shef` loads a `node` object on
-startup, including attributes from Ohai.
-
-    > shef
-    loading configuration: none (standalone shef session)
-    Session type: standalone
-    ...
-    Ohai2u jtimberman@localhost.localdomain!
-    chef >
-
-# Chef::Node in Shef
-
-Show the `Chef::Node` object itself:
-
-    chef > node
-     => <Chef::Node:0xb75b9c @name="localhost.localdomain">
-
-Show the node's name:
-
-    chef > node.name
-     => "localhost.localdomain
-
-Show the node's environment and run list:
-
-    chef > node.chef_environment
-     => "_default"
-    chef > node.run_list
-     =>
-
-# Chef::Node in Shef
-
-Show some attributes about the node:
-
-    chef > node['ipaddress']
-     => "10.0.0.100"
-    chef > node['platform']
-     => "ubuntu"
-    chef > node['platform_version']
-     => "11.10"
-
 # Summary
 
 * Properties of the Chef::Node object
@@ -459,9 +416,9 @@ Show some attributes about the node:
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Nodes
-* http://wiki.opscode.com/display/chef/Attributes
-* http://wiki.opscode.com/display/chef/Environments
+* [http://wiki.opscode.com/display/chef/Nodes](http://wiki.opscode.com/display/chef/Nodes)
+* [http://wiki.opscode.com/display/chef/Attributes](http://wiki.opscode.com/display/chef/Attributes)
+* [http://wiki.opscode.com/display/chef/Environments](http://wiki.opscode.com/display/chef/Environments)
 
 # Lab Exercise
 

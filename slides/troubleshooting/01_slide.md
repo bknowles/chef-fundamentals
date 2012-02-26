@@ -322,10 +322,11 @@ Common status codes.
 
 Common causes:
 
-* system time is not synced
-* incorrect node name
-* incorrect client configuration
-* invalid certificate file (validation or client)
+* System time is not properly synced
+* Incorrect node name
+* Incorrect client configuration
+* Invalid certificate file (validation or client)
+* Not in the correct directory structure for knife to find the knife.rb
 
 The Chef Server message will indicate what the likely cause is.
 
@@ -334,17 +335,21 @@ The Chef Server message will indicate what the likely cause is.
 Common causes:
 
 * ACL on Opscode Hosted Chef
-* Timeout retrieving files from S3 or other transient S3 error.
+* Timeout retrieving files or other transient error from from Opscode Hosted Chef (on S3)
 * Creating a data bag item when the bag doesn't exist
-* Attempting to create an API Client that exists
+* Attempting to create an API Client that already exists
+
+.notes i.e., you tried to create a new node with the same name as an old
+node, perhaps one where the node was deleted but the corresponding
+client was not
 
 # 404 Not Found
 
 Common causes
 
-* a source cookbook_file or template was requested but not uploaded
-* another file in the cookbook was not found when requested.
-* initial run of chef-client when the node doesn't yet exist (normal).
+* Source cookbook_file or template was requested but not uploaded
+* Another file in the cookbook was not found when requested.
+* Initial run of chef-client when the node doesn't yet exist (normal)
 
 # 409 Conflict
 
@@ -369,7 +374,7 @@ errors can cause a 500 error.
 Otherwise, something on the server backend had an error that wasn't
 handled.
 
-* Opscode's operations staff is notified on 500's.
+* For Opscode Hosted Chef, operations staff is notified on 500s.
 * We investigate and resolve these as quickly as possible.
 
 # 503 Service Unavailable
@@ -503,7 +508,7 @@ file.
 
 Opscode released a cookbook to make managing report handlers easier.
 
-* http://community.opscode.com/cookbooks/chef_handler
+* [http://community.opscode.com/cookbooks/chef_handler](http://community.opscode.com/cookbooks/chef_handler)
 
 Download it to your Chef Repository like any other cookbook:
 
@@ -537,11 +542,11 @@ cookbook at this time.
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Common+Errors
-* http://wiki.opscode.com/display/chef/Exception+and+Report+Handlers
-* http://wiki.opscode.com/display/chef/Troubleshooting+and+Technical+FAQ
-* http://help.opscode.com/ or support@opscode.com
-* http://lists.opscode.com
+* [http://wiki.opscode.com/display/chef/Common+Errors](http://wiki.opscode.com/display/chef/Common+Errors)
+* [http://wiki.opscode.com/display/chef/Exception+and+Report+Handlers](http://wiki.opscode.com/display/chef/Exception+and+Report+Handlers]
+* [http://wiki.opscode.com/display/chef/Troubleshooting+and+Technical+FAQ](http://wiki.opscode.com/display/chef/Troubleshooting+and+Technical+FAQ)
+* [http://help.opscode.com/](http://help.opscode.com/) or support@opscode.com
+* [http://lists.opscode.com](http://lists.opscode.com)
 
 Several existing handlers are available on the Exception and Report
 Handlers page linked above.

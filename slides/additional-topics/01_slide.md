@@ -45,6 +45,13 @@ They are not tied specifically to roles or nodes.
 
 Use data bags for storing information that is "infrastructure-wide".
 
+.notes There is no write locking mechanism for data bags.  If you
+have multiple processes/recipes that are trying to write to the
+same data bag at the same time, you may suffer data corruption or
+loss.  Consider them to be a useful resource that you can manually
+write data into, and then read out on an automated basis across
+your infrastructure.
+
 # Creating Data Bags
 
 Data bags go in the "data_bags" directory of the chef-repo.
@@ -68,15 +75,21 @@ common use cases we practice or have seen:
 
 # Encrypted Data Bags
 
-Data bags can be encrypted with a secret key.
+Data bags can be encrypted with a shared secret key.
 
 The key is something you generate on your local machine and do not
 send to the Chef Server.
 
-You still have to distribute the key file to systems that will need
-access to encrypted data bags.
+You still have to distribute the shared key file to systems that
+will need access to encrypted data bags.
 
-You probably already had a key distribution problem (think SSL).
+* By default, this file is stored in /var/chef/encrypted_data_bag_secret
+
+You probably already have a key distribution problem/solution (think SSL).
+
+.notes Work is under way to implement a public key encryption method using
+the client.pem as the private key on the respective node(s), so
+that you no longer have a shared key that has to be distributed.
 
 # Example: Managing Users
 
@@ -293,9 +306,8 @@ Cloud Computing providers like Amazon EC2.
 
 # Additional Resources
 
-* http://wiki.opscode.com/display/chef/Data+Bags
-* http://wiki.opscode.com/display/chef/Environments
-* http://wiki.opscode.com/display/chef/Version+Constraints
-*
-  http://wiki.opscode.com/display/chef/Lightweight+Resources+and+Providers+%28LWRP%29
-* http://wiki.opscode.com/display/chef/Knife+Plugins
+* [http://wiki.opscode.com/display/chef/Data+Bags](http://wiki.opscode.com/display/chef/Data+Bags)
+* [http://wiki.opscode.com/display/chef/Environments](http://wiki.opscode.com/display/chef/Environments)
+* [http://wiki.opscode.com/display/chef/Version+Constraints](http://wiki.opscode.com/display/chef/Version+Constraints)
+* [http://wiki.opscode.com/display/chef/Lightweight+Resources+and+Providers+%28LWRP%29](http://wiki.opscode.com/display/chef/Lightweight+Resources+and+Providers+%28LWRP%29)
+* [http://wiki.opscode.com/display/chef/Knife+Plugins](http://wiki.opscode.com/display/chef/Knife+Plugins)

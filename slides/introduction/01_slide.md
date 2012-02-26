@@ -1,10 +1,11 @@
-# Welcome to Chef Fundamentals!
+# Welcome to Just Enough Chef!
 
 <center><img src="../images/oc-chef-logo.png" height="394" width="500" /></center>
 
-<center>OPS150-04.01 - January, 2012</center>
+<center>Based on: Chef Fundamentals OPS150-04.01</center>
 
 <center>Created and Sponsored by Opscode, Inc.</center>
+<center>Adapted by Brad Knowles</center>
 
 .notes These course materials are Copyright © 2010-2012 Opscode,
 Inc. All rights reserved.  This work is licensed under a Creative
@@ -25,10 +26,13 @@ California, 94105, USA.
 
 # Instructor
 
-* Name
-* Company / Group
-* Experience w/ Configuration Management or Chef itself
-* Contact information
+* Brad Knowles
+* ihiji, Inc.
+* Unix/Linux Administrator, Internet/Cloud Systems/Scalability
+  Engineer, Consultant, Instructor, Speaker, Author,
+  & Privacy Advocate with over twenty years of experience
+  * Started actively working with Chef in September of 2011
+* bknowles@ihiji.com and brad@shub-internet.org
 
 .notes Contact information should minimally include email address.
 
@@ -99,21 +103,9 @@ systems to use.
 * Additional Topics
 * Chef Development and Further Resources
 
-.notes Additional topics include: Data bags, Environments, LWRPs,
-Plugins, Reporting. This also may include questions asked during the
-course that have not been covered.
-
-# Agenda: Hack Day
-
-Opscode public Chef Fundamentals training is often followed by a Hack Day.
-
-* Mini-tutorials/talks
-* Demonstrations
-* Collaboration and learning
-* Hacking on Chef, cookbooks and more!
-* Venue varies by location
-
-.notes Discuss any relevant hack day event logistics. If no hack day, skip.
+.notes Additional topics include: Data bags, Environments, Handlers,
+LWRPs, Plugins, Reporting. This also may include questions asked
+during the course that have not been covered.
 
 # Course Artifacts
 
@@ -133,11 +125,12 @@ but may mention others for awareness.
 
 Best practices themselves are subjective.
 
-Chef is flexible and you can make it do almost anything you want.
+Chef is flexible and you can make it do almost anything you want
+(TIMTOWTDI).
 
 # About the course materials
 
-Opscode's Chef Fundamentals training materials are dual-licensed.
+Opscode's training materials are dual-licensed.
 
 * Creative Commons Attribution-ShareAlike (CC BY-SA) for slides,
   guides and notes.
@@ -161,6 +154,7 @@ introduced, let's introduce Chef.
 "Keep track of all the stuff you do to take a system from 'bare metal'
 to 'doing its job'." - Adam Jacob, Web Operations (O'Reilly, 2010)
 
+* Hand-written log
 * Wiki notes, copy/paste
 * Scripting, ssh-in-a-for-loop
 * Automation frameworks
@@ -250,7 +244,7 @@ Chef is a tool for configuration management.
 # Declarative Resources
 
 You configure systems with Chef by writing self-documenting code. This
-code is lists of *Resources* that configure the system to do its job.
+code comprises lists of *Resources* that configure the system to do its job.
 
 Chef manages system resources with a declarative interface that
 abstracts the details.
@@ -376,6 +370,11 @@ information required to fulfill serving HTTP traffic.
 
 Chef inspects the node's role to determine what it should be to do its
 job.
+
+.notes Roles can include other roles, e.g., a role that defines a particular
+sub-type of database server can simply include the more general database
+server role and then add some additional recipes and resources to make it
+more specific.
 
 # Chef Summary: Configuration Management
 
