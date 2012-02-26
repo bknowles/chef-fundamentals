@@ -1,7 +1,6 @@
-Anatomy of a Chef Run
-======================
+# Lab Exercise: Anatomy of a Chef Run
 
-## Objectives
+## Lab Objectives
 
 * Configure remote target to run `chef-client`
 * Successful `chef-client` run with debug logging
@@ -56,22 +55,12 @@ tools to answer the following questions.
 
 ## Questions
 
-What is the name of the node and client created on the Chef Server?
-What commands can be used to get these values?
-
-What are two ways to change the name of the node and client at
-`chef-client` run time?
-
-What are the platform and platform version of the node?
-
-Does the node have a run list?
-
-What is the IP address detected for the node? Is it the correct
-default IP address?
-
-Is the API client an admin?
-
-Does the validation key file still exist? Why?
-
-What kind of HTTP request is made to save the node? When does this
-occur?
+1. What is the name of the node and client created on the Chef Server?
+1. What commands can be used to get these values?
+1. What are two ways to change the name of the node and client at `chef-client` run time?
+1. What are the platform and platform version of the node?
+1. Does the node have a run list?
+1. What is the IP address detected for the node? Is it the correct default IP address?
+1. Is the API client an admin?
+1. Does the validation key file still exist? Why?
+1. What kind of HTTP request is made to save the node? When does this occur?
