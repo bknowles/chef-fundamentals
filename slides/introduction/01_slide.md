@@ -260,7 +260,7 @@ abstracts the details.
 Chef Resources have *Providers* that take idempotent action to
 configure the resource, but only if it needs to change.
 
-    INFO: Processing package[apache2] action install (apache2::default line 20)
+    INFO: Processing package[apache2] action install (apache2::
     DEBUG: package[apache2] checking package status for apache2
     DEBUG: package[apache2] current version is 2.2.20-1ubuntu1.1
     DEBUG: package[apache2] candidate version is 2.2.20-1ubuntu1.1
