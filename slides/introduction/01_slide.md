@@ -26,11 +26,12 @@ California, 94105, USA.
 
 # Instructor
 
-* Brad Knowles
-* ihiji, Inc.
-* System Administrator/Engineer/Consultant: 20+ years
-    * Chef user: since Sep. 2011
-* bknowles@ihiji.com // @bradknowles
+* Name: Brad Knowles
+* Company: ihiji, Inc.
+* Experience: System Administrator/Engineer/Consultant: 20+ years
+    * Chef user: since 2011-09-14
+* E-mail: bknowles@ihiji.com
+* Twitter & github: @bradknowles
 
 .notes Contact information should minimally include email address.
 
