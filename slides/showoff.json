@@ -1,5 +1,5 @@
 {
-  "name": "Chef Fundamentals",
+  "name": "Just Enough Chef",
   "sections": [
     /* Day 1 */
     "introduction",
@@ -7,16 +7,6 @@
     "anatomy-of-a-chef-run",
     "just-enough-ruby-for-chef",
     "cookbooks-recipes-resources",
-    /* Day 2 */
-    "resources-in-depth",
-    "troubleshooting",
-    "roles",
-    "chef-node",
-    /* Day 3 */
-    "more-cookbooks",
-    "multiple-nodes-and-search",
-    "additional-topics",
-    "chef-development"
   ],
   "pdf_options": {
     "page_size": "Letter",
