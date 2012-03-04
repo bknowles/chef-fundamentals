@@ -1,7 +1,6 @@
-Adding a New Node
-======================
+# Lab Exercise: Adding a New Node
 
-## Objectives
+## Lab Objectives
 
 * Use `knife bootstrap` to set up a new node as a load balancer in front of the existing target node.
 

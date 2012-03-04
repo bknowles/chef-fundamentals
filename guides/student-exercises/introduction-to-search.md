@@ -1,7 +1,6 @@
-Introduction to Search
-======================
+# Lab Exercise: Introduction to Search
 
-## Objectives
+## Lab Objectives
 
 * Understand how to use search with `knife` sub-commands (`search`, `ssh`, `status`)
 * Understand the difference between attribute fields in query vs selecting from knife.

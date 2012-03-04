@@ -1,7 +1,6 @@
-Example Cookbook
-======================
+# Lab Exercise: Example Cookbook
 
-## Objectives
+## Lab Objectives
 
 * Download an existing cookbook
 * Explore the cookbook's contents

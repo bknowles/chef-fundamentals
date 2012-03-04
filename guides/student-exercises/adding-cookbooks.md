@@ -1,7 +1,6 @@
-Adding Cookbooks
-======================
+# Lab Exercise: Adding Cookbooks
 
-## Objectives
+## Lab Objectives
 
 * Download additional cookbooks from the Chef Community Site
 * Update `base` role with additional cookbooks

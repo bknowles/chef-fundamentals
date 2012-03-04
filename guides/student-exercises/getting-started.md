@@ -1,7 +1,6 @@
-Getting Started
-======================
+# Lab Exercise 1: Getting Started
 
-## Objectives
+## Lab Objectives
 
 * Install Ruby and Chef
 * Create an initial Chef Repository
@@ -16,7 +15,7 @@ Getting Started
 
 ## Install Ruby and Chef
 
-If Ruby and Chef are not already installed on the local workstation,
+If Ruby and Chef are not already installed on the chef workstation,
 do so now. Use the Opscode Full Stack Installer:
 
 * http://www.opscode.com/chef/install

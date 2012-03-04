@@ -1,7 +1,6 @@
-Roles
-======================
+# Lab Exercise: Roles
 
-## Objectives
+## Lab Objectives
 
 * Understand how to create roles with the Ruby DSL
 * Upload a role to the Chef Server with knife

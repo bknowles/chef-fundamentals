@@ -1,7 +1,6 @@
-Node Attributes
-======================
+# Lab Exercise: Node Attributes
 
-## Objectives
+## Lab Objectives
 
 * Set attributes via cookbook or role
 * Understand the attribute priority between cookbook and role attributes

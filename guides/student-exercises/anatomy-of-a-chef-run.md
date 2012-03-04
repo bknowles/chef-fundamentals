@@ -1,4 +1,4 @@
-# Lab Exercise: Anatomy of a Chef Run
+# Lab Exercise 2: Anatomy of a Chef Run
 
 ## Lab Objectives
 

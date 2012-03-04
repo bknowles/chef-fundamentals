@@ -1,7 +1,6 @@
-Resources In Depth
-======================
+# Lab Exercise: Resources In Depth
 
-## Objectives
+## Lab Objectives
 
 * Understand components of resources
 * Write resources into shef and observe the outcome

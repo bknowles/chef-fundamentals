@@ -1,7 +1,6 @@
-Chef Node
-======================
+# Lab Exercise: Chef Node
 
-## Objectives
+## Lab Objectives
 
 * View the node object on the Chef Server with knife
 * Create new attributes on the node with a cookbook and role.

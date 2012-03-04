@@ -1,7 +1,6 @@
-More Cookbooks
-======================
+# Lab Exercise: More Cookbooks
 
-## Objectives
+## Lab Objectives
 
 * Apply apt, chef-client, and fail2ban recipes via a base role
 * Include the apache2 recipe in the webserver recipe

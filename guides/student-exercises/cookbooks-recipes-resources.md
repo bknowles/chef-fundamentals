@@ -1,7 +1,6 @@
-Cookbooks, Recipes, and Resources
-======================
+# Lab Exercise 3: Cookbooks, Recipes, and Resources
 
-## Objectives
+## Lab Objectives
 
 * Create a new cookbook
 * Write a simple recipe with two resources

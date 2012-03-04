@@ -1,7 +1,6 @@
-Data Bags
-======================
+# Lab Exercise: Data Bags
 
-## Objectives
+## Lab Objectives
 
 * Create a data bag of users
 * Manage users on the system

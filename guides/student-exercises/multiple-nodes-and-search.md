@@ -1,7 +1,6 @@
-Multiple Nodes And Search
-======================
+# Lab Exercise: Multiple Nodes And Search
 
-## Objectives
+## Lab Objectives
 
 * Add load balancer role with haproxy recipe
 * Bootstrap a new node with load balancer role
