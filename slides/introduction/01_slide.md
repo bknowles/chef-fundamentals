@@ -31,7 +31,8 @@ California, 94105, USA.
 * Experience: System Administrator/Engineer/Consultant: 20+ years
     * Chef user: since 2011-09-14
 * E-mail: bknowles@ihiji.com
-* Twitter & github: @bradknowles
+* Twitter: @bradknowles
+* github: bknowles
 
 .notes Contact information should minimally include email address.
 
@@ -67,7 +68,7 @@ We can't cover everything. Specifically, this course does not cover:
 
 This course is to facilitate learning Chef.
 
-We will take frequent breaks and do several hands on exercises.
+We will take frequent breaks and do some hands on exercises.
 
 Please keep questions on topic for the section. Some questions will
 cover subject material that will be covered later.
@@ -85,7 +86,6 @@ break), or simply running through each section.
 * Anatomy of a Chef Run
 * Just Enough Ruby for Chef
 * Cookbooks, Recipes and Resources
-* Resources in Depth
 
 .notes The course is taught in logical sections that follow this flow.
 We introduce topics in varying degree of detail and revisit them
@@ -119,13 +119,12 @@ At the end of the class you will have:
 
 This course encompasses what are considered "best practices".
 
-Many things in Chef have multiple approaches. We will focus on one,
-but may mention others for awareness.
+Many things in Chef have multiple approaches (TIMTOWTDI).  We will
+focus on one, but may mention others for awareness.
 
 Best practices themselves are subjective.
 
-Chef is flexible and you can make it do almost anything you want
-(TIMTOWTDI).
+Chef is flexible and you can make it do almost anything you want.
 
 # About the course materials
 
