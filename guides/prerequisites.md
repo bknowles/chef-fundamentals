@@ -1,7 +1,9 @@
-This guide describes prerequisites that students should meet in order
+# Prerequisites
+
+This guide describes requirements that students should meet in order
 to get the most out of Chef Fundamentals.
 
-# General Requirements
+## General
 
 Students should be familiar with basic to intermediate system
 administration topics including the following:
@@ -22,7 +24,7 @@ generation programming language such as Perl, Python, Php or Ruby.
 * Conditionals (if/unless, case)
 * Loops (for/foreach, while, or language equivalent)
 
-# Workstation Requirements
+## Workstation Requirements
 
 Student Exercises will run from a management workstation
 system. Students should install non-Chef required software before the
@@ -35,10 +37,6 @@ On Unix/Linux/OS X systems:
 
 * C/C++ compiler, build environment (`build-essential`, Xcode, or
   platform equivalent).
-
-If Chef is not already installed, use [Opscode's Full Stack Chef
-installer](http://www.opscode.com/chef/install). This will also be
-covered during the introductory portion of the course.
 
 ### Mac OS X Users
 
@@ -54,15 +52,13 @@ ID here:
 
 And select, "Command Line Tools for Xcode" to download the dmg.
 
-# Chef Server Requirements
+## Chef Server Requirements
 
 Students may already have a Chef Server, whether it is Opscode Hosted
 Chef, Opscode Private Chef or an Open Source Chef Server. The
-exercises in the course will focus on using Opscode Hosted Chef unless
-otherwise prior arrangements have been made by the instructor with the
-students.
+exercises in the course will focus on using Opscode Hosted Chef.
 
-## Sign up for Opscode Hosted Chef
+### Sign up for Opscode Hosted Chef
 
 It is recommended that students do not use the same Chef Server that
 their production infrastructure might be using. It is relatively quick
