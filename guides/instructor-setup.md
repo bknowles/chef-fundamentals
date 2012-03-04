@@ -1,4 +1,4 @@
-# Description
+# Instructor Setup
 
 This guide describes requirements set up an environment that Chef
 Fundamentals students use for hands on exercises.
