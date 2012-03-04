@@ -1,7 +1,7 @@
-# Prerequisites
+# Student Prerequisites
 
 This guide describes requirements that students should meet in order
-to get the most out of Chef Fundamentals.
+to get the most out of Just Enough Chef.
 
 ## General
 
@@ -31,7 +31,7 @@ system. Students should install non-Chef required software before the
 class starts.
 
 * SSH/SCP (OpenSSH, puTTY/WinSCP or equivalent)
-* [Git](http://git-scm.org)
+* Git (http://git-scm.org)
 
 On Unix/Linux/OS X systems:
 
@@ -74,9 +74,4 @@ to 5 nodes when the class is over.
 
 # Need Help?
 
-If you are taking this course from Opscode directly and need help or
-have questions above this document, please email support@opscode.com with
-"Chef Fundamentals Prerequisites" in the subject line.
-
-If you are taking this course from an independent Chef Fundamentals
-trainer, contact your instructor for assistance.
+Contact your instructor for assistance.
