@@ -30,9 +30,10 @@ California, 94105, USA.
 * Company: ihiji, Inc.
 * Experience: System Administrator/Engineer/Consultant: 20+ years
     * Chef user: since 2011-09-14
-* E-mail: bknowles@ihiji.com
-* Twitter: @bradknowles
-* github: bknowles
+* Contact
+    * E-mail: bknowles@ihiji.com
+    * Twitter: @bradknowles
+    * github: bknowles
 
 .notes Contact information should minimally include email address.
 
