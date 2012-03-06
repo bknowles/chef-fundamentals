@@ -24,6 +24,16 @@ California, 94105, USA.
 * Refreshments
 * Parking
 
+# Sponsors
+
+## Chef Workstation & Cloud Hosting
+
+<center><img src="../images/rackspace.png" height="144" width="370" /></center>
+
+## My Employer
+
+<center><img src="../images/ihiji-logo-black-on-white.png" height="195" width="291" /></center>
+
 # Instructor
 
 * Name: Brad Knowles
