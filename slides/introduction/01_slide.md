@@ -38,7 +38,8 @@ California, 94105, USA.
 
 * Name: Brad Knowles
 * Company: ihiji, Inc.
-* Experience: System Administrator/Engineer/Consultant: 20+ years
+* Experience:
+    * System Administrator/Engineer/Consultant: 20+ years
     * Chef user: since 2011-09-14
 * Contact
     * E-mail: bknowles@ihiji.com
