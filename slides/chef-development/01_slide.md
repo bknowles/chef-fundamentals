@@ -10,7 +10,7 @@ This work is licensed under a Creative Commons Attribute Share Alike 3.0 United 
 Chef itself is an open source project.
 
 * Apache 2.0 Software License.
-* 600+ individuals, 100+ companies!
+* 630+ individuals, 120+ companies!
 
 # How to Contribute
 
