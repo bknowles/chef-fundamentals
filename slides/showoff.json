@@ -6,7 +6,8 @@
     "getting-started",
     "anatomy-of-a-chef-run",
     "just-enough-ruby-for-chef",
-    "cookbooks-recipes-resources"
+    "cookbooks-recipes-resources",
+    "chef-development"
   ],
   "pdf_options": {
     "page_size": "Letter",

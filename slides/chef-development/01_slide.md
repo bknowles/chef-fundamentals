@@ -1,24 +1,26 @@
 # Chef Development
 
-And Further Resources
+Section Objectives:
+
+* Provide additional information
 
 .notes These course materials are Copyright © 2010-2012 Opscode, Inc. All rights reserved.
 This work is licensed under a Creative Commons Attribute Share Alike 3.0 United States License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/us; or send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
 
 # Chef is Open Source
 
-Chef itself is an open source project.
+Chef itself is an open source project
 
-* Apache 2.0 Software License.
+* Apache 2.0 Software License
 * 630+ individuals, 120+ companies!
 
 # How to Contribute
 
-Sign a CLA.
+Sign a CLA and/or CCLA
 
 * [http://wiki.opscode.com/display/chef/How+to+Contribute](http://wiki.opscode.com/display/chef/How+to+Contribute)
 
-Sign up on JIRA.
+Sign up on JIRA
 
 * [http://tickets.opscode.com](http://tickets.opscode.com)
 
@@ -26,7 +28,7 @@ Find a ticket and start patching!
 
 # Other Projects
 
-Other projects by Opscode are Apache licensed as well.
+Other projects by Opscode are Apache licensed as well
 
 * ohai
 * mixlibs
@@ -36,13 +38,13 @@ Other projects by Opscode are Apache licensed as well.
 
 # Keeping Up to Date
 
-chef and chef-dev mailing lists
+chef mailing list
 
-* lists.opscode.com
+* [http://lists.opscode.com/sympa/info/chef](http://lists.opscode.com/sympa/info/chef)
 
 IRC channel
 
-* irc.freenode.net #chef-hacking
+* [irc.freenode.net #chef](irc://irc.freenode.net/chef)
 
 RSS Feeds
 
@@ -51,22 +53,20 @@ RSS Feeds
 
 # Training Materials
 
-Open training materials are Creative Commons licensed and released periodically.
+Open training materials are Creative Commons licensed and released periodically
 
-* Version 1 is from April 2010.
-* Version 2 were used but not released.
-* Version 3 is the last version in Keynote/PDF.
-* Version 4 is current, this version.
+* Chef Fundamentals
+    * Version 1 is from April 2010
+    * Version 2 was used but not released
+    * Version 3 is the last version in Keynote/PDF
+    * Version 4 is current
+* Just Enough Chef based on Chef Fundamentals, version 4
 
-Sign up on the web site for updates.
+Sign up on the web site for updates
 
 * [http://opscode.com/opentraining](http://opscode.com/opentraining)
 
 # Additional Help Resources
-
-Opscode Platform support site
-
-* [http://help.opscode.com](http://help.opscode.com)
 
 Open source Chef wiki and documentation
 
@@ -86,14 +86,13 @@ Announcements of upcoming events are posted to our blog and twitter ([@opscode](
 
 # ChefConf
 
-Our first Chef users' conference is May 15-17, 2012, in Burlingame,
-CA.
+Our first Chef users' conference is May 15-17, 2012, in Burlingame, CA
 
 * [http://chefconf.opscode.com](http://chefconf.opscode.com)
 
 # Plugins and RubyGems
 
-Many other people are creating plugins and RubyGems for Chef and Knife.
+Many other people are creating plugins and RubyGems for Chef and Knife
 
     gem list -r chef-
     gem list -r knife-

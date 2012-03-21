@@ -18,20 +18,21 @@ California, 94105, USA.
 # Logistics
 
 * Start and finish time
-* Breaks
+    + 0945 & 1730 (9:45 AM & 5:30 PM)
+* Breaks -- Tea, Coffee, & Biscuits
+    + Morning: 1100-1130 (11:00 AM - 11:30 AM)
+    + Afternoon: 1530-1600 (3:30 PM - 4:00 PM)
 * Lunch
-* Restrooms
-* Refreshments
-* Parking
+    + 1300-1400 (1:00 PM - 2:00 PM)
+* Restrooms & Refreshments
+    + Ground Floor
 
 # Sponsors
 
-## Chef Workstation & Cloud Hosting
-
+Chef Workstation & Cloud Hosting
 <center><img src="../images/rackspace.png" height="144" width="370" /></center>
 
-## My Employer
-
+My Employer
 <center><img src="../images/ihiji-logo-black-on-white.png" height="195" width="291" /></center>
 
 # Instructor
